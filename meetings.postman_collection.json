@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "8e6005c8-3b07-41aa-b041-df3c878e620e",
+		"name": "meetingsMission",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23516161"
+	},
+	"item": [
+		{
+			"name": "Get all Dev Groups",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/meetings/dev-groups",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"meetings",
+						"dev-groups"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get meetings by group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/meetings/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"meetings",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new meeting",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"devGroupId\": 4,\r\n    \"startMeeting\": \"2022-04-22 15:00:00\",\r\n    \"endMeeting\":  \"2022-04-22 19:00:00\",\r\n    \"description\": \"fun meeting\",\r\n    \"meetingRoom\": \"hello kitty room\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/meetings",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"meetings"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,58 @@
+6.12.2022, 19:25:57 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(startMeeting, '%d/%m/%y %T') AS 'startMeeting',
+            DATE_FORMAT(endM...' at line 3
+----------------------------
+6.12.2022, 19:26:00 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(startMeeting, '%d/%m/%y %T') AS 'startMeeting',
+            DATE_FORMAT(endM...' at line 3
+----------------------------
+6.12.2022, 20:32:19 	 in was incorrect values for the meetingDates
+----------------------------
+6.12.2022, 20:32:50 	 in was incorrect values for the meetingDates
+----------------------------
+6.12.2022, 20:57:51 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 20:59:30 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:32 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:33 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:34 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:34 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:35 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:46 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:47 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:47 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:47 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:00:59 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:01:25 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:01:25 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:01:34 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:01:58 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:02:33 	 meeting.startMeeting.getMilliseconds is not a function
+----------------------------
+6.12.2022, 21:11:59 	 meeting.startMeeting.getFullYear is not a function
+----------------------------
+6.12.2022, 21:12:18 	 meeting.endMeeting.getFullYear is not a function
+----------------------------
+6.12.2022, 21:12:57 	 meeting.startMeeting.getFullYear is not a function
+----------------------------
+10.6.2023, 19:17:34 	 connect ECONNREFUSED 127.0.0.1:3306
+----------------------------
+10.6.2023, 19:17:34 	 connect ECONNREFUSED 127.0.0.1:3306
+----------------------------
+10.6.2023, 19:17:39 	 connect ECONNREFUSED 127.0.0.1:3306
+----------------------------
+10.6.2023, 19:17:39 	 connect ECONNREFUSED 127.0.0.1:3306
+----------------------------
